@@ -31,11 +31,11 @@ function App() {
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-(--paper) px-5 font-(--font-manrope) sm:px-[6vw]">
-      <div className="pointer-events-none absolute -left-55 top-[360px] z-[-1] h-102.5 w-102.5 rounded-full bg-[#e1efc1] opacity-50 blur-[1px]" />
+      <div className="pointer-events-none absolute -left-[220px] top-[360px] z-[-1] h-[410px] w-[410px] rounded-full bg-[#e1efc1] opacity-50 blur-[1px]" />
       <div className="pointer-events-none absolute -right-[180px] top-10 z-[-1] h-[330px] w-[330px] rounded-full bg-[#d8eae4] opacity-50 blur-[1px]" />
       <Header />
       <Intro />
-      <section className="mx-auto max-w-310 border border-(--line) bg-white/60 p-5 sm:p-8" id="directory" aria-label="Team directory">
+      <section className="mx-auto max-w-[1240px] border border-(--line) bg-white/60 p-5 sm:p-8" id="directory" aria-label="Team directory">
         <DirectoryToolbar
           isLoading={isLoading}
           query={query}

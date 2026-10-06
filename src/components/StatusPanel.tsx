@@ -11,7 +11,7 @@ export function StatusPanel({ type, message, onRetry }: StatusPanelProps) {
     return (
       <div className="flex min-h-75 flex-col items-center justify-center border border-dashed border-[#b8c8bf] text-center text-(--muted)">
         <Search size={28} />
-        <h2 className="mb-2 mt-3.5 text-xl text-(--ink)">
+        <h2 className="mb-2 mt-[14px] text-xl text-(--ink)">
           No user found with this nam
         </h2>
       </div>
@@ -24,7 +24,7 @@ export function StatusPanel({ type, message, onRetry }: StatusPanelProps) {
       role="alert"
     >
       <AlertCircle size={28} />
-      <h2 className="mb-2 mt-3.5 text-xl text-(--ink)">
+      <h2 className="mb-2 mt-[14px] text-xl text-(--ink)">
         Something went wrong
       </h2>
       <p className="text-[13px]">{message}</p>

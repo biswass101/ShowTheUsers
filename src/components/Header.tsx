@@ -2,7 +2,7 @@ import { Users } from "lucide-react";
 
 export function Header() {
   return (
-    <header className="mx-auto flex max-w-310 items-center justify-between border-b border-(--line) py-6.5">
+    <header className="mx-auto flex max-w-[1240px] items-center justify-between border-b border-(--line) py-[26px]">
       <a
         className="flex items-center gap-2.5 text-lg font-extrabold tracking-[-0.06em] text-(--ink) no-underline"
         href="/"
@@ -14,7 +14,7 @@ export function Header() {
         <span>nbnstar</span>
       </a>
       <nav
-        className="ml-auto mr-0 flex gap-3.5 sm:mr-10.5 sm:gap-6.5"
+        className="ml-auto mr-0 flex gap-3.5 sm:mr-[42px] sm:gap-[25px]"
         aria-label="Primary navigation"
       >
         <a
